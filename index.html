@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lukas Mitzka Education</title>
+  <meta name="description" content="Tailored German lessons in Vienna and online. High-quality German instruction for individuals, small groups and professional contexts." />
+
+  <style>
+    :root {
+      --cream: #eee4d2;
+      --navy: #16385f;
+      --blue-dark: #1d4f7a;
+      --blue-mid: #6f91ad;
+      --blue-light: #b8c8d2;
+      --gold-beige: #b9a783;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+      background: var(--cream);
+      color: var(--navy);
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 92vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 48px 8vw;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .brand {
+      position: absolute;
+      top: 34px;
+      right: 8vw;
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold-beige);
+    }
+
+    .hero {
+      max-width: 780px;
+      z-index: 2;
+    }
+
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 400;
+      font-size: clamp(2.8rem, 7vw, 6rem);
+      line-height: 1.02;
+      margin-bottom: 28px;
+    }
+
+    .subtitle {
+      font-size: clamp(1.15rem, 2vw, 1.45rem);
+      max-width: 620px;
+      margin-bottom: 36px;
+    }
+
+    .button {
+      display: inline-block;
+      text-decoration: none;
+      color: var(--cream);
+      background: var(--navy);
+      padding: 14px 24px;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      letter-spacing: 0.02em;
+    }
+
+    .waves {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 34vh;
+      z-index: 1;
+    }
+
+    section {
+      padding: 88px 8vw;
+      background: #f7f1e8;
+    }
+
+    .section-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: clamp(2rem, 4vw, 3.3rem);
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 400;
+      margin-bottom: 28px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-top: 36px;
+    }
+
+    .card {
+      border-top: 1px solid rgba(22, 56, 95, 0.25);
+      padding-top: 22px;
+    }
+
+    .card h3 {
+      font-size: 1.15rem;
+      margin-bottom: 12px;
+    }
+
+    .muted {
+      color: rgba(22, 56, 95, 0.78);
+    }
+
+    footer {
+      padding: 56px 8vw;
+      background: var(--navy);
+      color: var(--cream);
+    }
+
+    footer a {
+      color: var(--cream);
+    }
+
+    @media (max-width: 760px) {
+      header {
+        min-height: 86vh;
+      }
+
+      .brand {
+        left: 8vw;
+        right: auto;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 64px 8vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="brand">Lukas Mitzka Education</div>
+
+    <div class="hero">
+      <h1>Tailored German lessons in Vienna & online</h1>
+      <p class="subtitle">
+        High-quality German instruction for individuals, small groups and professional contexts.
+      </p>
+      <a class="button" href="mailto:hello@lukasmitzka.com">Get in touch</a>
+    </div>
+
+    <svg class="waves" viewBox="0 0 1440 360" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,190 C240,120 410,260 640,180 C850,105 1040,130 1440,70 L1440,360 L0,360 Z" fill="#b8c8d2"/>
+      <path d="M0,250 C240,190 410,305 650,230 C890,155 1040,210 1440,135 L1440,360 L0,360 Z" fill="#6f91ad"/>
+      <path d="M0,305 C270,230 520,335 760,265 C1000,195 1190,270 1440,220 L1440,360 L0,360 Z" fill="#1d4f7a"/>
+      <path d="M0,335 C300,270 560,355 820,310 C1060,268 1240,320 1440,285 L1440,360 L0,360 Z" fill="#16385f"/>
+    </svg>
+  </header>
+
+  <section>
+    <div class="section-inner">
+      <h2>Deutschunterricht mit Anspruch.</h2>
+      <p class="muted">
+        Lessons are designed around your goals, your level and the situations in which you actually need German.
+        The focus is clear structure, active language use and personal guidance.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Private lessons</h3>
+          <p class="muted">Focused German instruction with individual feedback and a clear learning path.</p>
+        </div>
+
+        <div class="card">
+          <h3>Small groups</h3>
+          <p class="muted">Structured lessons for pairs or small groups who want to learn together.</p>
+        </div>
+
+        <div class="card">
+          <h3>Corporate German</h3>
+          <p class="muted">Tailored German training for professional communication and everyday work contexts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Interested in tailored German lessons?</strong></p>
+    <p>Contact: <a href="mailto:hello@lukasmitzka.com">hello@lukasmitzka.com</a></p>
+  </footer>
+</body>
+</html>
