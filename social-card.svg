@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Lukas Mitzka Education — Tailored German</title>
+  <desc id="desc">German training built around what you need to do, in Vienna and online.</desc>
+  <rect width="1200" height="630" fill="#0d1720"/>
+  <rect x="72" y="72" width="166" height="90" rx="2" fill="#f1eadf"/>
+  <path d="M92 133V91H102V124H123V133H92Z" fill="#123E68"/>
+  <path d="M132 133V91H142L154 113L166 91H176V133H166V108L158 124H150L142 108V133H132Z" fill="#123E68"/>
+  <path d="M90 145H178" stroke="#A87935" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="72" y="240" fill="#c69b6d" font-size="25" font-family="Arial, sans-serif" font-weight="700" letter-spacing="5">TAILORED GERMAN</text>
+  <text x="72" y="342" fill="#f1eadf" font-size="72" font-family="Georgia, serif">German training built around</text>
+  <text x="72" y="425" fill="#f1eadf" font-size="72" font-family="Georgia, serif">what you need to do.</text>
+  <text x="72" y="515" fill="#a9b4bd" font-size="29" font-family="Arial, sans-serif">Lukas Mitzka Education · Vienna and online</text>
+  <path d="M1040 0C927 156 918 394 1046 630H1200V0Z" fill="#7892a7" opacity=".14"/>
+  <path d="M1110 0C1025 196 1038 438 1145 630H1200V0Z" fill="#c69b6d" opacity=".1"/>
+</svg>
